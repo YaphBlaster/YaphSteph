@@ -1,15 +1,16 @@
 @import "./partials/variables.scss", "./partials/albums.scss",
-  "./partials/introduction.scss";
+  "./partials/avatars.scss", "./partials/introduction.scss";
+
+body {
+  color: $font-color;
+  margin: 0;
+  padding: 0;
+}
 
 .App {
   text-align: center;
-  background-color: $background-color;
   padding: 20px;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  font-family: "Roboto", sans-serif;
 }
 
 .App-header {
@@ -27,22 +28,10 @@
   font-size: large;
 }
 
-.landing-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-
-  &:before {
-    content: " \25CF";
-    font-size: 200px;
-  }
+.hidden {
+  visibility: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome-text {
+  text-align: justify;
 }

@@ -3,16 +3,19 @@
   margin: 0 auto;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   max-width: 600px;
-  // grid-gap: 15px;
+  grid-gap: 10px;
   margin-bottom: 70px;
 }
 
 .album {
   position: relative;
+  overflow: hidden;
+  border-radius: 2%;
+
   .album__image {
     width: 100%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-    border-radius: 2%;
+    display: block;
   }
   .album__overlay {
     position: absolute;

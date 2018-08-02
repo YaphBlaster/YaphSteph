@@ -1,11 +1,12 @@
 import React from "react";
-import landingImage from "../../assets/landingPage.jpg";
+import Avatars from "../Avatars";
 
 const Intro = props => {
   return (
     <div className="introduction">
-      <img className="landing-image" src={landingImage} alt="" />
-      <p>
+      <Avatars />
+      <h1>{props.title}</h1>
+      <p className="welcome-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
