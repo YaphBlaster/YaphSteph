@@ -1,0 +1,48 @@
+@import "./partials/variables.scss", "./partials/albums.scss",
+  "./partials/introduction.scss";
+
+.App {
+  text-align: center;
+  background-color: $background-color;
+  padding: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.landing-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  &:before {
+    content: " \25CF";
+    font-size: 200px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

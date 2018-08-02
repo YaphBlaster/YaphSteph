@@ -1,0 +1,98 @@
+.albums {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 600px;
+  margin-bottom: 70px; }
+
+.album {
+  position: relative; }
+  .album .album__image {
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 2%; }
+  .album .album__overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.5s ease; }
+  .album .album__overlay--hover {
+    opacity: 0.5; }
+  .album .album__overlay--mobile {
+    height: 20%;
+    opacity: 0.5;
+    transform: translate(0, 0);
+    left: 0;
+    top: 80%; }
+  .album .album__title {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s ease;
+    zoom: 1.5; }
+  .album .album__title--hover {
+    margin: 0 auto;
+    opacity: 1; }
+  .album .album__title--mobile {
+    white-space: nowrap;
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 1;
+    transition: 0.5s ease;
+    font-size: 20px; }
+  .album .album__link {
+    text-decoration: none;
+    color: black; }
+
+.introduction {
+  margin: 0 auto;
+  max-width: 600px; }
+
+.App {
+  text-align: center;
+  background-color: white;
+  padding: 20px; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white; }
+
+.App-title {
+  font-size: 1.5em; }
+
+.App-intro {
+  font-size: large; }
+
+.landing-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; }
+  .landing-image:before {
+    content: " \25CF";
+    font-size: 200px; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=style.css.map */
