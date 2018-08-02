@@ -3,14 +3,14 @@
 # dependencies
 /node_modules
 
+# sass cache
+/src/.sass-cache
+
 # testing
 /coverage
 
 # production
 /build
-
-# sass cache
-/src/.sass-cache
 
 # misc
 .DS_Store
