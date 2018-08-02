@@ -1,10 +1,8 @@
 import React from "react";
-import Avatars from "../Avatars";
 
 const Intro = props => {
   return (
     <div className="introduction">
-      <Avatars />
       <h1>{props.title}</h1>
       <p className="welcome-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
