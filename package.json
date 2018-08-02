@@ -7,7 +7,6 @@
     "react-dom": "^16.4.1",
     "react-images-loaded": "^2.0.0",
     "react-scripts": "1.1.4",
-    "react-spring": "^5.5.1",
     "vanilla-back-to-top": "^7.1.14"
   },
   "scripts": {
