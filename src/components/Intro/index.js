@@ -3,7 +3,7 @@ import React from "react";
 const Intro = props => {
   return (
     <div className="introduction">
-      <h1>{props.title}</h1>
+      <p className="title transitional">{props.title}</p>
       <p className="welcome-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

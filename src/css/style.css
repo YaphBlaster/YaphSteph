@@ -1,10 +1,10 @@
 .albums {
   display: grid;
   margin: 0 auto;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  max-width: 600px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 10px;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  max-width: 600px; }
 
 .album {
   position: relative;
@@ -63,18 +63,22 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 600px;
   margin: 0 auto; }
 
 .avatar {
-  width: 20%; }
+  width: 150px; }
+  @media (max-width: 450px) {
+    .avatar {
+      width: 125px; } }
 
 .heart {
-  width: 10%; }
+  width: 92px; }
+  @media (max-width: 450px) {
+    .heart {
+      width: 75px; } }
 
 .introduction {
-  margin: 0 auto;
-  max-width: 600px; }
+  margin: 0 auto; }
 
 body {
   color: #6e7468;
@@ -87,9 +91,21 @@ body {
 .App {
   text-align: center;
   padding: 20px;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  margin: 0 auto; }
 
 .welcome-text {
   text-align: justify; }
+
+.title {
+  white-space: nowrap;
+  font-size: 2.5em; }
+  @media (max-width: 450px) {
+    .title {
+      font-size: 1.5em; } }
+
+.transitional {
+  transition: 0.5s ease; }
 
 /*# sourceMappingURL=style.css.map */

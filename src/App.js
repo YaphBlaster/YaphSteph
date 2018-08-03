@@ -5,6 +5,7 @@ import Avatars from "./components/Avatars";
 import Data from "./data/Data";
 import { addBackToTop } from "vanilla-back-to-top";
 import ImagesLoaded from "react-images-loaded";
+import Anime from "react-anime";
 
 class App extends Component {
   state = {

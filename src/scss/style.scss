@@ -15,8 +15,22 @@ body {
   text-align: center;
   padding: 20px;
   font-family: "Roboto", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .welcome-text {
   text-align: justify;
+}
+
+.title {
+  white-space: nowrap;
+  font-size: 2.5em;
+  @media (max-width: $break-small) {
+    font-size: 1.5em;
+  }
+}
+
+.transitional {
+  transition: 0.5s ease;
 }
