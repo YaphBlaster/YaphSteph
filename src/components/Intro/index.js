@@ -5,13 +5,10 @@ const Intro = props => {
     <div className="introduction">
       <p className="title transitional">{props.title}</p>
       <p className="welcome-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Our wedding day was all that we could ask for. Amazing weather, great
+        food and even better company. Our lovely day was captured by the
+        talented Megan Steen, and we thought that we would share her work for
+        your viewing pleasure. Enjoy!
       </p>
     </div>
   );
