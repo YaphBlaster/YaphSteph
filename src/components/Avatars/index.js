@@ -10,13 +10,12 @@ const Avatars = props => {
       <img className="avatar transitional" src={yaphet} alt="" />
       {props.loaded ? (
         <Anime
-          easing="easeOutElastic"
           loop={true}
-          duration={500}
           direction="alternate"
-          scale={[0.1, 0.9]}
+          duration={600}
+          scale={[1.1, 0.9]}
         >
-          <img className="heart transitional" src={pixelHeart} alt="" />
+          <img className="heart" src={pixelHeart} alt="" />
         </Anime>
       ) : null}
 
